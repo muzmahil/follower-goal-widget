@@ -44,8 +44,14 @@ Before starting the widget, open the `config.json` file and replace the followin
 Example:
 ```json
 {
-  "kickUsername": "yourKickUsername",
-  "followerGoal": 100,
+  "kickUsername": "rootcf",
+    "title": "Follower Goal",
+    "followerGoal": 100,
+    "design": "normal",
+    "barColor": "#4caf50",
+    "textColor": "#FFFFFF",
+    "port": 3000,
+    "refreshInterval": 10000
 }
 ```
 
