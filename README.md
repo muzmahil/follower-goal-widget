@@ -76,7 +76,7 @@ The widget uses **Puppeteer** to scrape the follower count from your Kick channe
 You can easily customize the look and feel of the widget by modifying the HTML and CSS files located in the `html/` and `public/` directories. Adjust the colors, fonts, and layout to match your streaming style.
 
 ## 🐞 Troubleshooting
-- **CSS not loading**: Make sure your CSS file is in the `public` directory and that the `express.static` middleware is correctly set up in `app.js`.
+- **CSS not loading**: Make sure your CSS file is in the `public` directory and `design` setting changed.
 - **Follower count not updating**: Check if your Kick username is correctly configured in `config.json` and that Puppeteer can access the Kick website without issues.
 
 ## 📄 License
