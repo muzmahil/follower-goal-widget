@@ -38,9 +38,7 @@ Example:
 ```json
 {
   "kickUsername": "yourKickUsername",
-  "followerGoal": 1000,
-  "port": 3000,
-  "refreshInterval": 30000
+  "followerGoal": 100,
 }
 ```
 
@@ -59,7 +57,7 @@ node app.js
 And that's it! Your follower goal widget is now live and updating in real-time!
 
 ## 🖥️ How It Works
-The widget uses **Puppeteer** to scrape the follower count from your Kick channel. It updates the follower count every 30 seconds (or as configured) and displays the progress towards your goal. The widget is served via a local Express server, which you can access using the URL `http://localhost:3000`.
+The widget uses **Puppeteer** to scrape the follower count from your Kick channel. It updates the follower count every 15 seconds (or as configured) and displays the progress towards your goal. The widget is served via a local Express server, which you can access using the URL `http://localhost:3000`.
 
 ## 🔧 Customization
 You can easily customize the look and feel of the widget by modifying the HTML and CSS files located in the `html/` and `public/` directories. Adjust the colors, fonts, and layout to match your streaming style.
