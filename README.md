@@ -31,8 +31,15 @@ This will install the necessary dependencies, including **Express** (for the ser
 
 ### 3. Configure Your Settings
 Before starting the widget, open the `config.json` file and replace the following values:
-- `kickUsername`: Your Kick streaming username.
-- `followerGoal`: The follower goal you want to track.
+- `kickUsername`: Your Kick streaming username. The follower count will be fetched for this username.
+- `title`: The title of the widget. This title will be displayed on the widget.
+- `follwerGoal`: Your follower goal. This is the target follower count that the widget will track.
+- `design`: The design type of the widget. You can select "normal" or another design type. This affects the overall look of the widget.
+- `barColor`: The color of the follower progress bar. "#4caf50" is a green color, but you can choose any color code you like.
+- `textColor`: The color of the text on the widget. "#FFFFFF" is white, but you can change it to any color code.
+- `port`: The port number where the web server will run. You can access the widget using this port.
+- `refreshInterval`: The interval (in milliseconds) at which the follower count will be updated. This value is set to 10 seconds (10000 ms) but can be adjusted as needed.
+
 
 Example:
 ```json
