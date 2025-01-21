@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="${design}.css">
+    <title>${title}</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">${title}</h1>
+        <div class="bar-container">
+        <p class="goal">${currentFollowerCount} / ${followerGoal}</p>
+            <div class="bar" id="bar"></div>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById("bar").style.width =  `${percentage}%`
+ setInterval(function() {
+location.reload();
+}, ${refreshValue}); // 5 saniyede bir sayfa yenileme
+</script>
+</html>

@@ -1,0 +1,10 @@
+{
+    "kickUsername": "your_username",
+    "title": "Follower Goal",
+    "followerGoal": 100,
+    "design": "normal",
+    "barColor": "#4caf50",
+    "textColor": "#FFFFFF",
+    "port": 3000,
+    "refreshInterval": 10000
+}
