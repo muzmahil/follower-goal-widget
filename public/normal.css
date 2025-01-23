@@ -20,7 +20,7 @@ body {
 }
 
 .bar-container {
-    width: 100vh;
+    width: 90%;
     border-radius: 25px;
     height: 35px;
     overflow: hidden;
